@@ -5,7 +5,8 @@
     4. E-mail: theysy@postech.ac.kr
 
 # Brief description
-    - This subroutine is developed to apply various macroscopic plasticty models into sheet metal FE simulations.
+    - This repository is published for free sharing of the user-defined matreial (UMAT) subroutine for abaqus.
+    - This UMAT subroutine is developed to apply various macroscopic plasticty models into sheet metal FE simulations.
     - Plasticity theories are modulized and made easy to be appended within UMAT code.
     - Various stress update algorithms are available.
 
