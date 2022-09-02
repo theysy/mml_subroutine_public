@@ -50,14 +50,14 @@
      5. DIFFERENTIATION METHOD
         - 1: Analytical derivative
         - 2: Numerical derivative
-	 6. Fracture criteria (Only for MML_V2F.FOR)
+	 6. Fracture criteria (Only available in MML_V2F.FOR)
 		- 1: HOSFORD-COLOUMB
 		- 2: COCCROFT AND LATHAM
 		- 3: RICE AND TRACEY
 		- 4: OYANE
 		- 5: KO
 		- 6: Lou2012
-	 7. Continuum damage model
+	 7. Continuum damage model (Only availalbe in MML_V2F.FOR)
 		- 1: MODIFIED GTN
 # Reference
     [1] F.BARLAT  ET AL. IJP      (2003): YLD2000-2D
