@@ -64,31 +64,31 @@
      8. Continuum damage model (Only availalbe in MML_V2F.FOR)
 		- 1: MODIFIED GTN
 # Reference
-    [1] F.BARLAT  ET AL. IJP      (2003): YLD2000-2D
-    [2] F.BARLAT  ET AL. IJP      (2012): HAH11
-    [3] F.BARLAT  ET AL. IJP      (2014): HAH14
-    [4] J.W. LEE  ET AL. IJP      (2012): CUTTING PLANE METHOD
-    [5] J.W. LEE  ET AL. CMAM     (2012): CLOSEST POINT PROJECTION
-    [6] J.W. YOON ET AL. IJP      (2004): MULTI-STAGE EULER BACKWARD
-    [7] F. BARLAT ET AL.  IJP     (2005): YLD2004_18P
-    [8] H. ARETZ          ESAFORM (2007): SCALED FDM
-    [9] T.J. PARK ET AT.  IJSS    (2012): CHABOCHE1-SIMPLER MODEL
-    [10]J.Y. LEE  ET AL.  IJSS    (2012): CHABOCHE2
-    [11]F. YOSHIDA ET AL. IJP     (2002): YOSHIDA-UEMORI
-    [12]M. ORTIZ  ET AL.  IJNME   (1985): TANGENT MODULUS METHOD
-    [13]W.M. SCHERZINGER  CMAME   (2017): LINE SEARCH EULER BACKWARD
-    [14]F. BARLAT ET AL.  IJSS    (2020): HAH20H & HAH20E
-    [15]E. RAUCH ET AL.   MSMSE   (2011): RGBV
-    [16]K. KITAYAMA ET AL.IJP     (2013): CRYSTALLOGRAPHIC RGBV
+	[1] F.BARLAT  ET AL.    IJP      (2003): YLD2000-2D
+	[2] F.BARLAT  ET AL.    IJP      (2012): HAH11
+	[3] F.BARLAT  ET AL.    IJP      (2014): HAH14
+	[4] J.W. LEE  ET AL.    IJP      (2012): CUTTING PLANE METHOD
+	[5] J.W. LEE  ET AL.    CMAME    (2012): CLOSEST POINT PROJECTION
+	[6] J.W. YOON ET AL.    IJP      (2004): MULTI-STAGE EULER BACKWARD
+	[7] F. BARLAT ET AL.    IJP      (2005): YLD2004_18P
+	[8] H. ARETZ            ESAFORM  (2007): SCALED FDM
+	[9] T.J. PARK ET AT.    IJSS     (2012): CHABOCHE1-SIMPLER MODEL
+	[10]J.Y. LEE  ET AL.    IJSS     (2012): CHABOCHE2
+	[11]F. YOSHIDA ET AL.   IJP      (2002): YOSHIDA-UEMORI
+	[12]M. ORTIZ  ET AL.    IJNME    (1985): TANGENT MODULUS METHOD
+	[13]W.M. SCHERZINGER    CMAME    (2017): LINE SEARCH EULER BACKWARD
+	[14]F. BARLAT ET AL.    IJSS     (2020): HAH20H & HAH20E
+	[15]E. RAUCH ET AL.     MSMSE    (2011): RGBV
+	[16]K. KITAYAMA ET AL.  IJP      (2013): CRYSTALLOGRAPHIC RGBV
 # FRACTURE MODEL REFERENCES
-	[1]K.H. PACK ET AL.  EFM     (2017): HOSFORD-COULUMB
-	[2]M.G.COCKCROFT ET AL. JIM  (1968): COCKCROFT
-	[3]J.R. Rice ET AL.  JMPS    (1969): RICE AND TRACEY
-	[4]M. OYANE ET AL.   JMWT    (1980): OYANE
-	[5]Y.K. KO ET AL.    JMPT    (2007): KO
-	[6]Y. LOU ET AL.     IJSS    (2012): Lou2012
-	[7]V. TVERGAARD      IJF     (1982): GTN
-	[8]K. NAHSHON ET AL. EJMAS   (2008): MODIFIED GTN
+	[1]K.H. PACK ET AL.     EFM      (2017): HOSFORD-COULUMB
+	[2]M.G.COCKCROFT ET AL. JIM      (1968): COCKCROFT
+	[3]J.R. Rice ET AL.     JMPS     (1969): RICE AND TRACEY
+	[4]M. OYANE ET AL.      JMWT     (1980): OYANE
+	[5]Y.K. KO ET AL.       JMPT     (2007): KO
+	[6]Y. LOU ET AL.        IJSS     (2012): Lou2012
+	[7]V. TVERGAARD         IJF      (1982): GTN
+	[8]K. NAHSHON ET AL.    EJMAS    (2008): MODIFIED GTN
 # Publication
 	[1]	Yoon, S.-Y., Lee, S.-Y., Barlat, F., 2020. Numerical integration algorithm of updated homogeneous anisotropic hardening model through finite element framework. Comput. Methods Appl. Mech. Eng. 372. https://doi.org/10.1016/j.cma.2020.113449
 	[2]	Yoon, S.-Y., Barlat, F., Lee, S.-Y., Kim, J.-H., Wi, M.-S., Kim, D.-J., 2022. Finite element implementation of hydrostatic pressure-sensitive plasticity and its application to distortional hardening model and sheet metal forming simulations. J. Mater. Process. Technol. 302, 117494. https://doi.org/10.1016/J.JMATPROTEC.2022.117494
