@@ -41,12 +41,16 @@
         - 5: HOCKETT-SHERBY: P1-(P1-P2)*EXP(-P3*EQPLAS**P4)
         - 6: COMBINED SWIFT-VOCE: P1*[P2*(P3+EQPLAS)**P4]+(1-P1)*[P5-P6*EXP(-P7*EQPLAS)]
         - 7: MACROSCOPIC RGBV MODEL: P1*[P2+P3*P4*P5*SQRT(RHO(EQPLAS))
-     4. Stress update algorithms
+     4. Stress update algorithms (Iterative approach)
         - 1: CUTTING PLANE METHOD (EXPLICIT)
         - 2: CLOSEST POINT PROJECTION METHOD(FULLY-IMPLICIT)
         - 3: CLOSEST POINT PROJECTION METHOD(SEMI-IMPLICIT)
         - 4: TANGENT MODULUS METHOD
         - 5: LINE SEARCH EULER BACKWARD METHOD (FULLY-IMPLICIT)
+     5. Stress update method (Non-iterative approach)
+        - 1: First-order Euler forward method
+	- 2: Non-iterative stress projection method (Continuum tangent modulus)
+	- 3: Non-iterative stress projection method (Consistent tangent modulus)
      5. DIFFERENTIATION METHOD
         - 1: Analytical derivative
         - 2: Numerical derivative
