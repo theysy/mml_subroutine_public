@@ -52,7 +52,7 @@ C         [17]S.Y. YOON ET AL.  CMAME   (2020): LINE-SEARCH FOR HARDENING     C
 C         [18]C.G. BROYDEN      MOC     (1965): BROYDEN METHOD                C
 C         [19]S.Y. YOON ET AL.  JMPT    (2022): PRESSURE EFFECT               C
 C         [20]B. REYNE ET AL.   IJP     (2022): HEXAH (HAH22)                 C
-C         [21]S.Y. YOON ET AL.  CMAME   (2022): NSPM                          C
+C         [21]S. YOON ET AL.    IJMS    (2023): NSPM                          C
 C                                                                             C
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 C
@@ -1789,7 +1789,7 @@ C     1.9     CONTINUUM TANGENT MODULUS
 C-----------------------------------------------------------------------
 C
 C     NON-ITERATIVE STRESS UPDATE METHOD
-C     REF: S.Y. YOON ET AL. 2022
+C     REF: S. YOON AND F. BARLAT, IJMS, 2023
       SUBROUTINE NSPM(STAT_VAR,DSTRAN,D_EQPLAS,EQPLAS,SIG,CE)
       IMPLICIT REAL*8(A-H, O-Z)
 
@@ -1878,7 +1878,7 @@ C     2.7     RETURN ELASTOPLASTIC TANGENT STIFFNESS TENSOR
 C-----------------------------------------------------------------------
 C
 C     NON-ITERATIVE STRESS UPDATE METHOD
-C     REF: S.Y. YOON ET AL. 2022
+C     REF: S. YOON AND F. BARLAT, IJMS, 2023
       SUBROUTINE NSPM2(STAT_VAR,DSTRAN,D_EQPLAS,EQPLAS,SIG,CE)
       IMPLICIT REAL*8(A-H, O-Z)
 
