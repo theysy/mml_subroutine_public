@@ -27,6 +27,7 @@
         - 3: HAH11 [2]
         - 4: HAH14 [3]
         - 5: HAH20h | 5.5: HAH20e [14]
+	- 6: HEXAH (HAH22) [17]
     2. Anisotropic yield functions
         - 1: Von-Mises
         - 2: Hill 1948
@@ -75,6 +76,7 @@
     [14]F. BARLAT ET AL.  IJSS    (2020): HAH20H & HAH20E
     [15]E. RAUCH ET AL.   MSMSE   (2011): RGBV
     [16]K. KITAYAMA ET AL.IJP     (2013): CRYSTALLOGRAPHIC RGBV
+    [17]B. REYNE ET AL.,  IJP     (2022): HEXAH
 # FRACTURE MODEL REFERENCES
 	[1]K.H. PACK ET AL.  EFM     (2017): HOSFORD-COULUMB
 	[2]M.G.COCKCROFT ET AL. JIM  (1968): COCKCROFT
@@ -85,8 +87,8 @@
 	[7]V. TVERGAARD      IJF     (1982): GTN
 	[8]K. NAHSHON ET AL. EJMAS   (2008): MODIFIED GTN
 # Publication
-	[1]	Yoon, S.-Y., Lee, S.-Y., Barlat, F., 2020. Numerical integration algorithm of updated homogeneous anisotropic hardening model through finite element framework. Comput. Methods Appl. Mech. Eng. 372. https://doi.org/10.1016/j.cma.2020.113449
-	[2]	Yoon, S.-Y., Barlat, F., Lee, S.-Y., Kim, J.-H., Wi, M.-S., Kim, D.-J., 2022. Finite element implementation of hydrostatic pressure-sensitive plasticity and its application to distortional hardening model and sheet metal forming simulations. J. Mater. Process. Technol. 302, 117494. https://doi.org/10.1016/J.JMATPROTEC.2022.117494
-	[3]	Yoon, S.-Y., Barlat, F., 2023a. Non-iterative stress integration method for anisotropic materials. Int. J. Mech. Sci. 242, 108003. https://doi.org/10.1016/j.ijmecsci.2022.108003.
-	[4]	Yoon, S.-Y., Barlat, F., 2022b. Non-iterative stress projection method extended for anisotropic hardening. Forth coming.
+	[1]	Yoon, S., Lee, S.-Y., Barlat, F., 2020. Numerical integration algorithm of updated homogeneous anisotropic hardening model through finite element framework. Comput. Methods Appl. Mech. Eng. 372. https://doi.org/10.1016/j.cma.2020.113449
+	[2]	Yoon, S., Barlat, F., Lee, S.-Y., Kim, J.-H., Wi, M.-S., Kim, D.-J., 2022. Finite element implementation of hydrostatic pressure-sensitive plasticity and its application to distortional hardening model and sheet metal forming simulations. J. Mater. Process. Technol. 302, 117494. https://doi.org/10.1016/J.JMATPROTEC.2022.117494
+	[3]	Yoon, S., Barlat, F., 2023a. Non-iterative stress integration method for anisotropic materials. Int. J. Mech. Sci. 242, 108003. https://doi.org/10.1016/j.ijmecsci.2022.108003.
+	[4]	Yoon, S., Barlat, F., 2023. Non-iterative stress projection method for anisotropic hardening. Mech. Mater. 183, 104683. https://doi.org/https://doi.org/10.1016/j.mechmat.2023.104683
 
