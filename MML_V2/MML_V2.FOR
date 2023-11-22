@@ -2469,7 +2469,7 @@ C     [3.1] FLUCTUATING COMPONENT: ¥Õ_H
       PHI_H = PHI_H1**QM+PHI_H2**QM
 C-----------------------------------------------------------------------
 C     [4] EQUIVALENT STRESS
-      SIG_BAR=(XI**QM+PHI_H)**(1.D0/QM)
+      SIG_BAR=(PHI**QM+PHI_H)**(1.D0/QM)
 
       RETURN
       END SUBROUTINE HAH11
