@@ -1,5 +1,5 @@
 # Information of developer
-    1. Name: Seong-Yong Yoon
+    1. Name: Seongyong Yoon
     2. Affiliation: Pohang university of science and technology (POSTECH)
     3. Advisor: Frederic Barlat
     4. E-mail: theysy@postech.ac.kr
@@ -41,12 +41,15 @@
         - 5: HOCKETT-SHERBY: P1-(P1-P2)*EXP(-P3*EQPLAS**P4)
         - 6: COMBINED SWIFT-VOCE: P1*[P2*(P3+EQPLAS)**P4]+(1-P1)*[P5-P6*EXP(-P7*EQPLAS)]
         - 7: MACROSCOPIC RGBV MODEL: P1*[P2+P3*P4*P5*SQRT(RHO(EQPLAS))
-     4. Stress update algorithms
+     4. Stress update algorithms (Iterative method)
         - 1: CUTTING PLANE METHOD (EXPLICIT)
         - 2: CLOSEST POINT PROJECTION METHOD(FULLY-IMPLICIT)
         - 3: CLOSEST POINT PROJECTION METHOD(SEMI-IMPLICIT)
         - 4: TANGENT MODULUS METHOD
-        - 5: LINE SEARCH EULER BACKWARD METHOD (FULLY-IMPLICIT)
+     4. Stress update methods (Fully-explicit)
+        - -1: Forward Euler method
+        - -2: NON-ITERATIVE STRESS PROJECTION METHOD (CONTIMUUM TANGENT OPERATOR)
+        - -3: NON-ITERATIVE STRESS PROJECTION METHOD (CONSISTENT TANGENT OPERATOR)
      5. DIFFERENTIATION METHOD
         - 1: Analytical derivative (Not available)
         - 2: Numerical derivative
